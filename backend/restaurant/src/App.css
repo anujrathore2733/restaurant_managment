@@ -1,0 +1,131 @@
+.table_box{
+  display: flex;
+  justify-content: space-around;
+  padding: 150px;
+}
+
+.eachtable{
+  height: 100px;
+  width: 100px;
+  background-color: brown;
+  color: aliceblue;
+  margin: 20px;
+  flex-wrap: wrap;
+}
+
+.eachtable:hover{
+  transform: scale(1.05);
+}
+
+.next_btn{
+  display: flex;
+  justify-content: center;
+  padding-right: 160px;
+}
+
+.main_table_box{
+  padding: 10px;
+  margin-top: 70px;
+}
+
+.sltd{
+  background-color: green;
+}
+
+/* ------------------------------waiter--------------------------------- */
+
+.main_waiter_box{
+  padding: 10px;
+  margin-top: 70px;
+}
+
+.waiter_box{
+  display: flex;
+  justify-content: space-around;
+  padding: 150px;
+}
+
+.eachwaiter{
+  height: 100px;
+  width: 100px;
+  background-color: brown;
+  color: aliceblue;
+  margin: 20px;
+  flex-wrap: wrap;
+}
+
+.eachwaiter:hover{
+  transform: scale(1.05);
+}
+
+.sltdw{
+  background-color: green;
+}
+
+.order_box{
+
+  display: flex;
+
+}
+
+.order_menu{
+  border: 2px solid black;
+  width: 60%;
+  margin: 20px;
+  height:500px;
+}
+
+.cart{
+  border: 2px solid black;
+  width: 40%;
+  margin: 20px;
+  height: 500px;
+}
+
+.inp_form{
+  display: flex;
+  justify-content: center;
+}
+
+.menuitem{
+  min-width: 90%;
+  margin: 20px;
+  padding: 5px;
+  background-color: skyblue;
+  display:flex;
+  justify-content:space-between;
+  align-items: center;
+}
+
+.menu_item_box{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  overflow-y:auto;
+  height: 70%;
+}
+
+.qun{
+  display:flex;
+  align-items: center;
+}
+
+
+.item_display{
+  height: 350px;
+  overflow-y: auto;
+}
+
+.bill_btn{
+  display: flex;
+  justify-content: center;
+  padding: 3px;
+}
+
+.cart_item{
+  display:flex;
+  justify-content: space-around;
+  margin: 10px;
+  background-color: aquamarine;
+  align-items: center;
+}
